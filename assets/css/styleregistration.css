@@ -1,0 +1,39 @@
+:root{
+    --pr-color : #048853;
+}
+
+html, body{
+    height: 100%;
+    background: linear-gradient(160deg, var(--pr-color),#000);
+}
+
+.form-pendaftaran{
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #048853;
+    padding: 15px;
+}
+
+.form-pendaftaran h2{
+    font-weight: 700;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e0f5ed;
+}
+
+.button-primary{
+    height: 40px;
+    background-color: #08ef68;
+    transform: translateY(10px);
+    color : #fff;
+    border: 2px solid #55f096;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 550;
+
+}

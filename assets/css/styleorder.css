@@ -1,0 +1,48 @@
+:root{
+  --pr-color : #048853;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(160deg, var(--pr-color),#000);
+  height: 100%;
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: white;
+  width: 50%;
+  height: 90%;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
